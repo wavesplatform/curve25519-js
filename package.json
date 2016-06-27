@@ -1,0 +1,21 @@
+{
+  "name": "axlsign",
+  "version": "1.0.0",
+  "description": "Curve25519 signatures",
+  "main": "axlsign.js",
+  "scripts": {
+    "test": "jasmine",
+    "bench": "node bench/*.js"
+  },
+  "keywords": [
+    "sign",
+    "curve25519",
+    "x25519",
+    "ed25519"
+  ],
+  "author": "Dmitry Chestnykh",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  }
+}
